@@ -2,7 +2,8 @@
 
 > **Sistema Inteligente y Determinista de Auditoría Operativa y Cierres de Caja para PYMEs**
 
-[![SDLC Phase](https://img.shields.io/badge/SDLC-Fase%201%3A%20Planificaci%C3%B3n-blue)](docs/01_fase_planificacion.md)
+[![SDLC Status](https://img.shields.io/badge/SDLC-Fase%207%20Completada%20(Ciclo%20Completo)-brightgreen)](docs/07_fase_mantenimiento.md)
+[![Release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/MartinZapanaBerrospi/pyme-ops-agent/releases/tag/v1.0.0)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
 
@@ -67,8 +68,9 @@ El proyecto se ejecuta siguiendo las 7 fases del SDLC:
 - [x] **Fase 4: Implementación** (Desarrollo del motor en Python, dataset de prueba y smoke test) - *Entregado*
 - [x] **Fase 5: Pruebas e Integración** (Suite unittest automatizada, cobertura RF-01 a RF-06 y certificación QA) - *Entregado*
 - [x] **Fase 6: Despliegue y Puesta en Marcha** (Servidor MCP, manifiesto `.mcp/`, lanzador `.bat` y manual de despliegue) - *Entregado*
-- [ ] **Fase 7: Mantenimiento y Evolución** (Métricas, optimizaciones y roadmap)
+- [x] **Fase 7: Mantenimiento y Evolución** (Motor de salud SRE, runbook de operaciones y release v1.0.0) - *Entregado*
 
-Para ver el análisis detallado de las fases, consulte los documentos formales en `docs/` (`docs/01_fase_planificacion.md` a `docs/06_fase_despliegue.md`).
+Para ver el análisis detallado de las fases, consulte los documentos formales en `docs/` (`docs/01_fase_planificacion.md` a `docs/07_fase_mantenimiento.md`).
+
 
 

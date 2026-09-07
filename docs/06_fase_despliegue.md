@@ -243,6 +243,8 @@ Para integrar el servidor en **Google Antigravity**, **Claude Desktop**, **Curso
 | :--- | :--- |
 | Inicio del Proyecto | [[README]] |
 | ← Fase 5: Pruebas | [[05_fase_pruebas]] |
+| → Fase 7: Mantenimiento | [[07_fase_mantenimiento]] |
+| Runbook de Operaciones | [[sop_mantenimiento_operaciones]] |
 | Fase de Implementación | [[04_fase_implementacion]] |
 | SOP de Auditoría | [[sop_auditoria_caja]] |
 | Evidencia de Reporte | [[cierre_diario_actual]] |
