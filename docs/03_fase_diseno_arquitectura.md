@@ -203,3 +203,15 @@ pyme-ops-agent/
 4. [x] Taxonomía completa de errores y política DLQ documentada.
 5. [x] Contrato de interfaces del motor definido en `tools/audit_engine_spec.py`.
 6. [x] SOP operativo del skill `audit_pyme_cashflow` creado en `sops/`.
+
+---
+
+## Navegación del Proyecto (Obsidian Graph)
+
+| Nodo | Enlace |
+| :--- | :--- |
+| Inicio del Proyecto | [[README]] |
+| ← Fase 2: Análisis | [[02_fase_analisis_requisitos]] |
+| → Fase 4: Implementación | [[04_fase_implementacion]] |
+| SOP Auditoría | [[sop_auditoria_caja]] |
+| Roles del Equipo | [[01_business_analyst]] · [[02_system_architect]] · [[03_software_engineer]] · [[04_qa_engineer]] |

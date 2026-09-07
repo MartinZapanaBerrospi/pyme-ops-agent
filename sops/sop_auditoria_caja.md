@@ -194,3 +194,19 @@ tags:
 | `3` | `ERROR_SCHEMA_LOAD_FAILURE` | Esquema JSON inválido o no encontrado. |
 | `4` | `ERROR_EMPTY_DATASET` | Cero registros válidos procesados tras la validación. |
 | `99` | `ERROR_UNEXPECTED` | Error de sistema no controlado. Revisar log de traza. |
+
+---
+
+## Navegación del Proyecto (Obsidian Graph)
+
+| Nodo | Enlace |
+| :--- | :--- |
+| Inicio del Proyecto | [[README]] |
+| Fase 1: Planificación | [[01_fase_planificacion]] |
+| Fase 2: Análisis | [[02_fase_analisis_requisitos]] |
+| Fase 3: Diseño | [[03_fase_diseno_arquitectura]] |
+| Fase 4: Implementación | [[04_fase_implementacion]] |
+| Rol: Business Analyst | [[01_business_analyst]] |
+| Rol: System Architect | [[02_system_architect]] |
+| Rol: Software Engineer | [[03_software_engineer]] |
+| Rol: QA Engineer | [[04_qa_engineer]] |

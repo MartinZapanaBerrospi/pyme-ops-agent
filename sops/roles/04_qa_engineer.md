@@ -42,3 +42,9 @@ Para que una versión del sistema sea certificada para despliegue:
 2. **Latencia Conforme:** Tiempo total de ejecución menor a 2.0 segundos para lotes de hasta 10,000 transacciones.
 3. **Cero Alucinación / Cero Error de Centavo:** Discrepancia matemática exactamente igual a $0.00 en la consolidación de saldos y balances.
 4. **Validación Estricta de Esquema:** El 100% de los registros no conformes con `transactions_schema.json` deben ser capturados y reportados sin provocar excepciones no controladas en tiempo de ejecución.
+
+---
+
+## Navegación del Equipo (Obsidian Graph)
+
+[[01_business_analyst]] | [[02_system_architect]] | [[03_software_engineer]] | [[sop_auditoria_caja]] | [[04_fase_implementacion]]

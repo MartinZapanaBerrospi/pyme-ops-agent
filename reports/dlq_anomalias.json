@@ -1,0 +1,20 @@
+[
+  {
+    "dlq_id": "DLQ-20260907-001",
+    "timestamp_registro": "2026-09-07T03:18:41.516576",
+    "motivo_rechazo": "Campo obligatorio 'estado' ausente o vacío.",
+    "campo_incriminado": "estado",
+    "valor_recibido": "",
+    "registro_original": {
+      "id_transaccion": "CORRUPTO-@@",
+      "timestamp": "FECHA_INVALIDA_XYZ",
+      "tipo": "venta_incorrecta",
+      "metodo_pago": "bitcoin",
+      "monto": "veinte",
+      "categoria": "",
+      "estado": "",
+      "referencia": "",
+      "descripcion": ""
+    }
+  }
+]

@@ -38,3 +38,9 @@ Traducir las necesidades operativas, comerciales y financieras de las Pequeñas 
 2. **Cero Dependencia de APIs Externas de Pago:** Todos los requerimientos deben poder satisfacerse con ejecución local y herramientas de código abierto sin coste por token o transacción.
 3. **No Redacción de Código de Producción:** El Business Analyst especifica el *qué* y los criterios de éxito; la implementación técnica es delegada al Software Engineer y System Architect.
 4. **Verificabilidad:** Todo requisito funcional debe incluir una métrica o criterio inequívoco para que QA pueda certificar su cumplimiento con pruebas automatizadas.
+
+---
+
+## Navegación del Equipo (Obsidian Graph)
+
+[[02_system_architect]] | [[03_software_engineer]] | [[04_qa_engineer]] | [[sop_auditoria_caja]] | [[01_fase_planificacion]] | [[02_fase_analisis_requisitos]]

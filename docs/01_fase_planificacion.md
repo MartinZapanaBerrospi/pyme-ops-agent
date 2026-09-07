@@ -134,3 +134,15 @@ Para considerar aprobada la Fase 1:
 4. [x] `README.md` estructurado y documentado con la identidad del proyecto.
 5. [x] Documento formal de planificación redactado y verificado.
 6. [x] Commit de cierre de fase ejecutado bajo convención de commits semánticos (`chore(sdlc): ...`).
+
+---
+
+## Navegación del Proyecto (Obsidian Graph)
+
+| Nodo | Enlace |
+| :--- | :--- |
+| Inicio del Proyecto | [[README]] |
+| → Fase 2: Análisis | [[02_fase_analisis_requisitos]] |
+| → Fase 3: Diseño | [[03_fase_diseno_arquitectura]] |
+| → Fase 4: Implementación | [[04_fase_implementacion]] |
+| SOP Auditoría | [[sop_auditoria_caja]] |

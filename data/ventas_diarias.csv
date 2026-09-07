@@ -1,0 +1,21 @@
+id_transaccion,timestamp,tipo,metodo_pago,monto,categoria,estado,referencia,descripcion
+TRX-001,2026-09-07T08:05:00Z,ingreso,efectivo,250.00,Venta Mostrador,completado,CLI-001,Venta de productos de limpieza
+TRX-002,2026-09-07T08:12:00Z,ingreso,yape,85.50,Servicio Delivery,completado,CLI-002,Entrega a domicilio zona norte
+TRX-003,2026-09-07T08:25:00Z,ingreso,pos,420.00,Venta Mostrador,completado,VCH-1001,Compra con tarjeta de débito
+TRX-004,2026-09-07T08:31:00Z,ingreso,efectivo,150.00,Venta Mostrador,completado,CLI-003,Venta de abarrotes
+TRX-005,2026-09-07T08:45:00Z,egreso,efectivo,80.00,Insumos,completado,PRV-010,Pago a proveedor de bolsas
+TRX-006,2026-09-07T09:02:00Z,ingreso,plin,210.00,Servicio Tecnico,completado,CLI-004,Servicio de reparación de laptop
+TRX-007,2026-09-07T09:18:00Z,ingreso,pos,630.00,Venta Mostrador,completado,VCH-1002,Compra con tarjeta de crédito Visa
+TRX-008,2026-09-07T09:35:00Z,ingreso,efectivo,95.00,Venta Mostrador,completado,CLI-005,Venta de golosinas y snacks
+TRX-009,2026-09-07T09:50:00Z,egreso,efectivo,120.00,Gastos Operativos,completado,GAS-001,Pago de servicio de agua
+TRX-010,2026-09-07T10:05:00Z,ingreso,yape,340.00,Venta Mayorista,completado,CLI-006,Pedido mayorista confitería
+TRX-011,2026-09-07T10:22:00Z,ingreso,efectivo,175.00,Venta Mostrador,completado,CLI-007,Venta de útiles de escritorio
+TRX-012,2026-09-07T10:38:00Z,ingreso,pos,890.00,Electrodomesticos,completado,VCH-1003,Venta de licuadora premium
+TRX-013,2026-09-07T10:50:00Z,egreso,yape,55.00,Publicidad,completado,MKT-001,Pago de publicidad en redes sociales
+TRX-014,2026-09-07T11:05:00Z,ingreso,plin,130.00,Venta Mostrador,completado,CLI-008,Venta de productos de higiene
+TRX-015,2026-09-07T10:23:00Z,ingreso,efectivo,175.00,Venta Mostrador,completado,CLI-007,Venta de utiles de escritorio
+TRX-016,2026-09-07T10:23:30Z,ingreso,efectivo,175.00,Venta Mostrador,completado,CLI-007,Venta de utiles de escritorio
+TRX-017,2026-09-07T11:35:00Z,ingreso,pos,510.00,Venta Mostrador,completado,VCH-1004,Compra mixta con tarjeta
+TRX-018,2026-09-07T12:00:00Z,egreso,efectivo,200.00,Retiro Caja,completado,RET-001,Retiro de efectivo para banco
+TRX-019,2026-09-07T12:15:00Z,ingreso,yape,65.00,Servicio Delivery,anulado,CLI-009,Pedido cancelado por cliente
+CORRUPTO-@@,FECHA_INVALIDA_XYZ,venta_incorrecta,bitcoin,veinte,,,

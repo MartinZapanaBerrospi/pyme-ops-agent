@@ -45,3 +45,9 @@ Construir e implementar con máxima fidelidad matemática y eficiencia de ejecuc
    - Validación temprana de entradas (fail-fast) ante esquemas no conformes.
    - Manejo exhaustivo de excepciones sin silenciar errores (`try/except` explícito).
 4. **Idempotencia y Pureza Funcional:** Las funciones centrales de cálculo deben ser funciones puras (mismos inputs generan idénticos outputs sin efectos secundarios).
+
+---
+
+## Navegación del Equipo (Obsidian Graph)
+
+[[01_business_analyst]] | [[02_system_architect]] | [[04_qa_engineer]] | [[sop_auditoria_caja]] | [[04_fase_implementacion]]

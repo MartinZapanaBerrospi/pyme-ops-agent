@@ -84,3 +84,15 @@ Definición de responsabilidades para el ciclo de vida del desarrollo:
 3. [x] Especificación de 4 Requisitos No Funcionales críticos (RNF-01 a RNF-04).
 4. [x] Establecimiento de la Matriz RACI para gobernanza inter-agentes.
 5. [x] Formalización del contrato de datos en `data/schemas/transactions_schema.json`.
+
+---
+
+## Navegación del Proyecto (Obsidian Graph)
+
+| Nodo | Enlace |
+| :--- | :--- |
+| Inicio del Proyecto | [[README]] |
+| ← Fase 1: Planificación | [[01_fase_planificacion]] |
+| → Fase 3: Diseño | [[03_fase_diseno_arquitectura]] |
+| → Fase 4: Implementación | [[04_fase_implementacion]] |
+| SOP Auditoría | [[sop_auditoria_caja]] |

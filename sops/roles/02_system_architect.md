@@ -38,3 +38,9 @@ Diseñar la estructura técnica, modular y desacoplada del sistema, garantizando
 - **Diagramación:** Sintaxis nativa Mermaid.js integrada en Markdown para compatibilidad directa con Obsidian y GitHub.
 - **Control de Versiones:** Git y estándares de SemVer / Conventional Commits.
 - **Herramientas Prohibidas:** Frameworks web pesados (Django, Spring) innecesarios para el motor determinista local; bases de datos propietarias de pago; librerías dependientes de APIs en la nube.
+
+---
+
+## Navegación del Equipo (Obsidian Graph)
+
+[[01_business_analyst]] | [[03_software_engineer]] | [[04_qa_engineer]] | [[sop_auditoria_caja]] | [[03_fase_diseno_arquitectura]] | [[04_fase_implementacion]]
