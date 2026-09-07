@@ -610,6 +610,7 @@ class AuditEngine:
         balance_calculado: Decimal,
         monto_declarado: Decimal,
         tolerancia_pct: Decimal,
+        raise_on_exceeded: bool = False,
     ) -> tuple[Decimal, Decimal, EstadoAuditoria]:
         """
         Evalúa la discrepancia porcentual entre balance calculado y arqueo declarado.
@@ -631,6 +632,14 @@ class AuditEngine:
 
         if discrepancia_pct > tolerancia_pct:
             estado = EstadoAuditoria.CRITICAL_MISMATCH
+            if raise_on_exceeded:
+                raise DiscrepancyThresholdExceeded(
+                    balance_calculado=balance_calculado,
+                    monto_declarado=monto_declarado,
+                    discrepancia_abs=discrepancia_abs,
+                    discrepancia_pct=discrepancia_pct,
+                    tolerancia_pct=tolerancia_pct,
+                )
         else:
             estado = EstadoAuditoria.BALANCE_OK
 
@@ -649,6 +658,9 @@ class AuditEngine:
         """
         Orquesta la auditoría completa y produce el AuditResult final.
         """
+        if not transactions:
+            raise EmptyDatasetError(ruta_reporte)
+
         # Paso 1: Detectar duplicados
         duplicados = cls.detect_duplicates(transactions)
 

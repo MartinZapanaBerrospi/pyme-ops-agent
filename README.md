@@ -62,11 +62,12 @@ pyme-ops-agent/
 El proyecto se ejecuta siguiendo las 7 fases del SDLC:
 
 - [x] **Fase 1: Planificación** (Arquitectura base, viabilidad, alcance inicial y control de versiones) - *Entregado*
-- [ ] **Fase 2: Análisis de Requerimientos** (Historias de usuario, especificación funcional y casos de uso)
-- [ ] **Fase 3: Diseño del Sistema** (Arquitectura C4, contratos de tools y schemas de datos)
-- [ ] **Fase 4: Implementación** (Desarrollo de motores en Python y generadores de informes)
-- [ ] **Fase 5: Pruebas e Integración** (Unit testing, validación de datasets y edge cases)
+- [x] **Fase 2: Análisis de Requerimientos** (Historias de usuario, roles de agentes y contrato de datos) - *Entregado*
+- [x] **Fase 3: Diseño del Sistema** (Arquitectura C4, contratos de interfaces y SOP de auditoría) - *Entregado*
+- [x] **Fase 4: Implementación** (Desarrollo del motor en Python, dataset de prueba y smoke test) - *Entregado*
+- [x] **Fase 5: Pruebas e Integración** (Suite unittest automatizada, cobertura RF-01 a RF-06 y certificación QA) - *Entregado*
 - [ ] **Fase 6: Despliegue y Puesta en Marcha** (Documentación operativa y guías de ejecución)
 - [ ] **Fase 7: Mantenimiento y Evolución** (Métricas, optimizaciones y roadmap)
 
-Para ver el análisis detallado de la fase actual, consulte el documento formal: [`docs/01_fase_planificacion.md`](docs/01_fase_planificacion.md).
+Para ver el análisis detallado de las fases, consulte los documentos formales en `docs/` (`docs/01_fase_planificacion.md` a `docs/05_fase_pruebas.md`).
+

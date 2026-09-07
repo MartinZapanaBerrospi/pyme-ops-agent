@@ -201,5 +201,7 @@ README
 | :--- | :--- |
 | Inicio del Proyecto | [[README]] |
 | ← Fase 3: Diseño | [[03_fase_diseno_arquitectura]] |
+| → Fase 5: Pruebas | [[05_fase_pruebas]] |
+| Evidencia de Reporte | [[cierre_diario_actual]] |
 | SOP de Auditoría | [[sop_auditoria_caja]] |
 | Roles del Equipo | [[01_business_analyst]] · [[02_system_architect]] · [[03_software_engineer]] · [[04_qa_engineer]] |

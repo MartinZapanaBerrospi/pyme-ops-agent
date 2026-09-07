@@ -47,4 +47,4 @@ Para que una versión del sistema sea certificada para despliegue:
 
 ## Navegación del Equipo (Obsidian Graph)
 
-[[01_business_analyst]] | [[02_system_architect]] | [[03_software_engineer]] | [[sop_auditoria_caja]] | [[04_fase_implementacion]]
+[[01_business_analyst]] | [[02_system_architect]] | [[03_software_engineer]] | [[sop_auditoria_caja]] | [[04_fase_implementacion]] | [[05_fase_pruebas]]
