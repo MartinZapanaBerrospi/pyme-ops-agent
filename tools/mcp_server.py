@@ -290,6 +290,13 @@ def handle_request(line: str) -> None:
 
 def main() -> None:
     """Bucle principal de escucha en stdio."""
+    try:
+        sys.stdin.reconfigure(encoding="utf-8", errors="replace")
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
     # Redirigir logs no deseados a stderr para mantener stdout puramente JSON-RPC
     sys.stderr.write(f"[{SERVER_NAME}] Servidor MCP iniciado v{SERVER_VERSION}. Escuchando en stdio...\n")
     sys.stderr.flush()

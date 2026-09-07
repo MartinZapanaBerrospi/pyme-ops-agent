@@ -1,0 +1,26 @@
+id_transaccion,timestamp,tipo,metodo_pago,monto,categoria,estado,referencia,descripcion
+TRX-001,2026-09-07T08:00:00Z,ingreso,efectivo,180.00,Venta Mostrador,completado,CLI-001,Desayunos y cafes
+TRX-002,2026-09-07T08:15:00Z,ingreso,pos,320.00,Venta Mostrador,completado,VCH-201,Consumo salon Visa
+TRX-003,2026-09-07T08:30:00Z,ingreso,yape,45.00,Delivery,completado,YAP-101,Pedido oficina centro
+TRX-004,2026-09-07T08:45:00Z,ingreso,plin,60.00,Delivery,completado,PLN-201,Pedido pasteleria
+TRX-005,2026-09-07T09:00:00Z,ingreso,efectivo,250.00,Venta Mostrador,completado,CLI-002,Venta abarrotes granel
+TRX-006,2026-09-07T09:15:00Z,egreso,efectivo,65.00,Insumos Limpieza,completado,PRV-LIMP,Compra de insumos de limpieza
+TRX-007,2026-09-07T09:30:00Z,ingreso,pos,450.00,Venta Mostrador,completado,VCH-202,Venta articulos cocina Mastercard
+TRX-008,2026-09-07T09:45:00Z,ingreso,efectivo,190.00,Venta Mostrador,completado,CLI-003,Venta golosinas y snacks
+TRX-009,2026-09-07T10:00:00Z,ingreso,yape,85.00,Venta Mostrador,completado,YAP-102,Pago bebidas frias
+TRX-010,2026-09-07T10:15:00Z,ingreso,yape,120.00,Venta Mostrador,completado,CLI-YAPE-88,Venta de combo familiar
+TRX-011,2026-09-07T10:15:40Z,ingreso,yape,120.00,Venta Mostrador,completado,CLI-YAPE-88,Venta de combo familiar
+TRX-012,2026-09-07T10:30:00Z,ingreso,pos,510.00,Venta Mostrador,completado,VCH-203,Venta electrodomestico menor
+TRX-013,2026-09-07T10:45:00Z,egreso,efectivo,850.00,Proveedores Bebidas,completado,PRV-BEB,Pago a proveedor de bebidas
+TRX-014,2026-09-07T11:00:00Z,ingreso,plin,110.00,Venta Mostrador,completado,PLN-202,Cobro articulos bazar
+TRX-015,2026-09-07T11:15:00Z,ingreso,efectivo,220.00,Venta Mostrador,completado,CLI-004,Venta panaderia y lacteos
+TRX-016,2026-09-07T11:30:00Z,ingreso,pos,380.00,Venta Mostrador,completado,VCH-204,Cobro tarjeta debito
+TRX-017,2026-09-07T11:45:00Z,ingreso,efectivo,140.00,Venta Mostrador,completado,CLI-005,Venta bebidas calientes
+TRX-018,2026-09-07T12:00:00Z,ingreso,yape,95.00,Delivery,completado,YAP-103,Menu ejecutivo delivery
+TRX-019,2026-09-07T12:15:00Z,ingreso,pos,620.00,Venta Mostrador,completado,VCH-205,Consumo familiar almuerzo
+TRX-020,2026-09-07T12:30:00Z,ingreso,efectivo,310.00,Venta Mostrador,completado,CLI-006,Venta pack abarrotes
+TRX-021,2026-09-07T12:45:00Z,ingreso,plin,150.00,Venta Mostrador,completado,PLN-203,Cobro postres y tortas
+TRX-022,2026-09-07T13:00:00Z,ingreso,efectivo,210.00,Venta Mostrador,completado,CLI-007,Venta mostrador varios
+TRX-023,2026-09-07T13:15:00Z,ingreso,pos,290.00,Venta Mostrador,completado,VCH-206,Pago tarjeta credito
+TRX-024,2026-09-07T13:30:00Z,ingreso,efectivo,100.00,Venta Mostrador,completado,CLI-008,Venta snack paso
+TRX-ERR-025,2026-09-07T13:45:00Z,ingreso,efectivo,ABC,Venta Mostrador,completado,CLI-999,Venta con monto corrupto para DLQ
