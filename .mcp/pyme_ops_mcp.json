@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/mcp-settings.json",
+  "mcpServers": {
+    "pyme-ops-agent": {
+      "command": "python",
+      "args": [
+        "tools/mcp_server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "description": "Servidor MCP de PYME Ops Agent — Motor determinista de auditoría de ventas, cierres de caja y detección de descuadres."
+    }
+  }
+}

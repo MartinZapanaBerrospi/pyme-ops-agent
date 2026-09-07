@@ -142,6 +142,7 @@ OK
 | :--- | :--- |
 | Inicio del Proyecto | [[README]] |
 | ← Fase 4: Implementación | [[04_fase_implementacion]] |
+| → Fase 6: Despliegue | [[06_fase_despliegue]] |
 | Evidencia de Reporte | [[cierre_diario_actual]] |
 | SOP de Auditoría | [[sop_auditoria_caja]] |
 | Roles del Equipo | [[01_business_analyst]] · [[02_system_architect]] · [[03_software_engineer]] · [[04_qa_engineer]] |
