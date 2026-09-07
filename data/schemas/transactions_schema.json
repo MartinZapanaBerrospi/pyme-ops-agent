@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/MartinZapanaBerrospi/pyme-ops-agent/main/data/schemas/transactions_schema.json",
+  "title": "PYMETransactionSchema",
+  "description": "Contrato formal de validación de datos para transacciones operativas individuales en PYME Ops Agent.",
+  "type": "object",
+  "required": [
+    "id_transaccion",
+    "timestamp",
+    "tipo",
+    "metodo_pago",
+    "monto",
+    "categoria",
+    "estado"
+  ],
+  "properties": {
+    "id_transaccion": {
+      "type": "string",
+      "description": "Identificador único alfanumérico de la transacción.",
+      "pattern": "^[A-Za-z0-9_-]{3,64}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Fecha y hora de la transacción en formato ISO 8601 (ej. 2026-09-07T14:30:00Z)."
+    },
+    "tipo": {
+      "type": "string",
+      "description": "Naturaleza contable del movimiento.",
+      "enum": [
+        "ingreso",
+        "egreso"
+      ]
+    },
+    "metodo_pago": {
+      "type": "string",
+      "description": "Canal o medio de liquidación de pago.",
+      "enum": [
+        "efectivo",
+        "yape",
+        "plin",
+        "pos"
+      ]
+    },
+    "monto": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Monto de la transacción. Debe ser un valor numérico estrictamente positivo mayor a cero."
+    },
+    "categoria": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Clasificación operativa o comercial (ej. 'Venta Mostrador', 'Servicios', 'Proveedor', 'Insumos')."
+    },
+    "estado": {
+      "type": "string",
+      "description": "Estado de la transacción al momento del corte.",
+      "enum": [
+        "completado",
+        "anulado",
+        "pendiente"
+      ]
+    },
+    "referencia": {
+      "type": "string",
+      "description": "Identificador externo opcional (número de operación bancaria, voucher POS o ID de cliente)."
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Detalle descriptivo opcional de los bienes o servicios transaccionados."
+    }
+  },
+  "additionalProperties": false
+}
